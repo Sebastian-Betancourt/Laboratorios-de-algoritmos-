@@ -2,7 +2,7 @@
 print ("----Bienvenido, este programa está diseñado para" "\n" 
        "determinar el costo y el descuento que tendrá un artículo----" "\n")
 #Datos de entrada 
-precio = float (input("Ingrese el valor total de los prodcutos: "))
+precio = float (input("Ingrese el valor total de los productos: "))
 if precio >= 200:
     precio_descuento = (0.15 * precio)
     precio_final = precio - precio_descuento
